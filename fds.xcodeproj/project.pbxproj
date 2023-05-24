@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50C1EFA2A1C6681001F2254 /* gosanja.otf in Resources */ = {isa = PBXBuildFile; fileRef = F50C1EF92A1C6673001F2254 /* gosanja.otf */; };
+		F50C1EFC2A1C6991001F2254 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C1EFB2A1C6991001F2254 /* MyColor.swift */; };
+		F50C1EFF2A1C6A2C001F2254 /* SwiftUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = F50C1EFE2A1C6A2C001F2254 /* SwiftUIKit */; };
+		F50C1F012A1C7D3B001F2254 /* Zoomable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C1F002A1C7D3B001F2254 /* Zoomable.swift */; };
+		F50C1F032A1C7D50001F2254 /* ZoomTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C1F022A1C7D50001F2254 /* ZoomTest.swift */; };
+		F50C1F072A1E09DA001F2254 /* SpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C1F062A1E09DA001F2254 /* SpeechView.swift */; };
+		F5372DBD2A028581004AEE78 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5372DBC2A028581004AEE78 /* SwiftUIView.swift */; };
 		F5EAC6CA2A0083A00005C6B7 /* fdsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EAC6C92A0083A00005C6B7 /* fdsApp.swift */; };
 		F5EAC6CC2A0083A00005C6B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EAC6CB2A0083A00005C6B7 /* ContentView.swift */; };
 		F5EAC6CE2A0083A10005C6B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EAC6CD2A0083A10005C6B7 /* Assets.xcassets */; };
@@ -14,6 +21,10 @@
 		F5EAC6DB2A0083A10005C6B7 /* fdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EAC6DA2A0083A10005C6B7 /* fdsTests.swift */; };
 		F5EAC6E52A0083A10005C6B7 /* fdsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EAC6E42A0083A10005C6B7 /* fdsUITests.swift */; };
 		F5EAC6E72A0083A10005C6B7 /* fdsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EAC6E62A0083A10005C6B7 /* fdsUITestsLaunchTests.swift */; };
+		F5EAC6F72A00841C0005C6B7 /* notom.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5EAC6F42A00841C0005C6B7 /* notom.otf */; };
+		F5EAC6F82A00841C0005C6B7 /* notor.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5EAC6F52A00841C0005C6B7 /* notor.otf */; };
+		F5EAC6F92A00841C0005C6B7 /* notob.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5EAC6F62A00841C0005C6B7 /* notob.otf */; };
+		F5FE0FF72A0BA27D006505C7 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F5FE0FF62A0BA27D006505C7 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F50C1EF92A1C6673001F2254 /* gosanja.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gosanja.otf; sourceTree = "<group>"; };
+		F50C1EFB2A1C6991001F2254 /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		F50C1F002A1C7D3B001F2254 /* Zoomable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zoomable.swift; sourceTree = "<group>"; };
+		F50C1F022A1C7D50001F2254 /* ZoomTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomTest.swift; sourceTree = "<group>"; };
+		F50C1F062A1E09DA001F2254 /* SpeechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechView.swift; sourceTree = "<group>"; };
+		F5372DBC2A028581004AEE78 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		F5EAC6C62A0083A00005C6B7 /* fds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EAC6C92A0083A00005C6B7 /* fdsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fdsApp.swift; sourceTree = "<group>"; };
 		F5EAC6CB2A0083A00005C6B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,11 @@
 		F5EAC6E02A0083A10005C6B7 /* fdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fdsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EAC6E42A0083A10005C6B7 /* fdsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fdsUITests.swift; sourceTree = "<group>"; };
 		F5EAC6E62A0083A10005C6B7 /* fdsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fdsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5EAC6F42A00841C0005C6B7 /* notom.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = notom.otf; sourceTree = "<group>"; };
+		F5EAC6F52A00841C0005C6B7 /* notor.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = notor.otf; sourceTree = "<group>"; };
+		F5EAC6F62A00841C0005C6B7 /* notob.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = notob.otf; sourceTree = "<group>"; };
+		F5EAC6FA2A0084380005C6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F5EAC6FB2A0089EC0005C6B7 /* notoblack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = notoblack.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FE0FF72A0BA27D006505C7 /* SDWebImageSwiftUI in Frameworks */,
+				F50C1EFF2A1C6A2C001F2254 /* SwiftUIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +118,17 @@
 		F5EAC6C82A0083A00005C6B7 /* fds */ = {
 			isa = PBXGroup;
 			children = (
+				F5EAC6FA2A0084380005C6B7 /* Info.plist */,
+				F5EAC6F32A00841C0005C6B7 /* Font */,
 				F5EAC6C92A0083A00005C6B7 /* fdsApp.swift */,
 				F5EAC6CB2A0083A00005C6B7 /* ContentView.swift */,
 				F5EAC6CD2A0083A10005C6B7 /* Assets.xcassets */,
 				F5EAC6CF2A0083A10005C6B7 /* Preview Content */,
+				F5372DBC2A028581004AEE78 /* SwiftUIView.swift */,
+				F50C1EFB2A1C6991001F2254 /* MyColor.swift */,
+				F50C1F002A1C7D3B001F2254 /* Zoomable.swift */,
+				F50C1F022A1C7D50001F2254 /* ZoomTest.swift */,
+				F50C1F062A1E09DA001F2254 /* SpeechView.swift */,
 			);
 			path = fds;
 			sourceTree = "<group>";
@@ -127,6 +158,18 @@
 			path = fdsUITests;
 			sourceTree = "<group>";
 		};
+		F5EAC6F32A00841C0005C6B7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F50C1EF92A1C6673001F2254 /* gosanja.otf */,
+				F5EAC6FB2A0089EC0005C6B7 /* notoblack.otf */,
+				F5EAC6F42A00841C0005C6B7 /* notom.otf */,
+				F5EAC6F52A00841C0005C6B7 /* notor.otf */,
+				F5EAC6F62A00841C0005C6B7 /* notob.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +186,10 @@
 			dependencies = (
 			);
 			name = fds;
+			packageProductDependencies = (
+				F5FE0FF62A0BA27D006505C7 /* SDWebImageSwiftUI */,
+				F50C1EFE2A1C6A2C001F2254 /* SwiftUIKit */,
+			);
 			productName = fds;
 			productReference = F5EAC6C62A0083A00005C6B7 /* fds.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +262,10 @@
 				Base,
 			);
 			mainGroup = F5EAC6BD2A0083A00005C6B7;
+			packageReferences = (
+				F5FE0FF52A0BA27D006505C7 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				F50C1EFD2A1C6A2C001F2254 /* XCRemoteSwiftPackageReference "SwiftUIKit" */,
+			);
 			productRefGroup = F5EAC6C72A0083A00005C6B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +282,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5EAC6F92A00841C0005C6B7 /* notob.otf in Resources */,
+				F5EAC6F72A00841C0005C6B7 /* notom.otf in Resources */,
 				F5EAC6D12A0083A10005C6B7 /* Preview Assets.xcassets in Resources */,
+				F50C1EFA2A1C6681001F2254 /* gosanja.otf in Resources */,
+				F5EAC6F82A00841C0005C6B7 /* notor.otf in Resources */,
 				F5EAC6CE2A0083A10005C6B7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +313,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5EAC6CC2A0083A00005C6B7 /* ContentView.swift in Sources */,
+				F50C1EFC2A1C6991001F2254 /* MyColor.swift in Sources */,
 				F5EAC6CA2A0083A00005C6B7 /* fdsApp.swift in Sources */,
+				F50C1F072A1E09DA001F2254 /* SpeechView.swift in Sources */,
+				F5372DBD2A028581004AEE78 /* SwiftUIView.swift in Sources */,
+				F50C1F032A1C7D50001F2254 /* ZoomTest.swift in Sources */,
+				F50C1F012A1C7D3B001F2254 /* Zoomable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +480,7 @@
 				DEVELOPMENT_TEAM = ZMXTCSPNUZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fds/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +510,7 @@
 				DEVELOPMENT_TEAM = ZMXTCSPNUZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fds/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +645,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F50C1EFD2A1C6A2C001F2254 /* XCRemoteSwiftPackageReference "SwiftUIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/SwiftUIKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		F5FE0FF52A0BA27D006505C7 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F50C1EFE2A1C6A2C001F2254 /* SwiftUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F50C1EFD2A1C6A2C001F2254 /* XCRemoteSwiftPackageReference "SwiftUIKit" */;
+			productName = SwiftUIKit;
+		};
+		F5FE0FF62A0BA27D006505C7 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5FE0FF52A0BA27D006505C7 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5EAC6BE2A0083A00005C6B7 /* Project object */;
 }

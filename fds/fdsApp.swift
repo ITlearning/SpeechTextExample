@@ -11,7 +11,10 @@ import SwiftUI
 struct fdsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //SubscribePageView()
+            //SubscribeInformationView()
+            //ZoomableTest()
+            SpeechRecognitionView()
         }
     }
 }
